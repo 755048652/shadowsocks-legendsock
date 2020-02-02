@@ -14,8 +14,8 @@ OLDPATH="$PATH"
 PATH="$PATH:/usr/local/go/bin"
 
 echo "Get source code"
-go get -d -u -v github.com/shadowsocks-server/shadowsocks-legendsock
-cd ~/go/src/github.com/shadowsocks-server/shadowsocks-legendsock
+go get -d -u -v github.com/755048652/shadowsocks-legendsock
+cd ~/go/src/github.com/755048652/shadowsocks-legendsock
 
 echo "Compiling"
 go build -ldflags "-w -s" -o shadowsocks-legendsock
