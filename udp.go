@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/shadowsocks-server/shadowsocks-legendsock/socks"
+	"github.com/755048652/shadowsocks-legendsock/socks"
 )
 
 const udpBufferSize = 4 * 1024
